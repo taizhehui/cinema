@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title> 
+    <link rel="stylesheet" href="style_index.css" type="text/css">
+    	<script>
+	function checkforblank() {
+		if (document.getElementById('username').value == "" ||
+		document.getElementById('password').value == "" ){
+		alert("Please do not leave the fields empty");
+		return false;
+		}
+	}
+	</script>
+
+	
+       
+</head>
+<body>
+        <form class="login" method="post" action="verifyLogin.php" onsubmit="return checkforblank()">
+	<h1 class="login-title">Star Cinema</h1>
+          	<input type="text" 	class="login-input" id="username" name="username">
+		<input type="password"  class="login-input" id="password" name="password">
+		<input type="submit"    class="login-button" value="SUBMIT"><br/>   
+		  
+	</form>  
+        <form class="create" action="createaccount.html">
+	<input type="submit" class="create-button" value="Create an account"> 
+	</form>  
+     
+
+</body>
+</html>

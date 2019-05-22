@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title> 
+    <link rel="stylesheet" href="style_index.css" type="text/css">
+    	<script>
+	function checkforblank() {
+		var username = document.getElementById('username').value;
+		var password = document.getElementById('password').value;
+		var letterNumber = /^[0-9a-zA-Z]+$/;
+		var atLeastOneLetterNumber = /^(?:[0-9]+[a-z]|[a-z]+[0-9])[a-z0-9]*$/i;
+
+		if ( username == "" || password == "" ){
+			alert("Please do not leave the fields empty");
+			return false;
+		}
+		if (username.length <3){
+			alert("Username must be longer than 3 characters");
+			return false;
+		}
+ 		if((!username.match(letterNumber))){  
+  			alert("Username can only consist of characters and numbers"); 
+   			return false; 
+  		}
+		if (password.length <6 || password.length > 15 || (!password.match(atLeastOneLetterNumber )) ){
+			alert("The length of the password must be between 6 to 15 characters and it must consist of only alphanumerical characters with at least one alphabet and one numerical character");
+			return false;
+		}	
+	}  
+	</script>
+
+	
+       
+</head>
+<body>
+     
+        <form class="login" method="post" action="create.php" onsubmit="return checkforblank()">
+	<h1 class="login-title">Create your account</h1>
+          	<input type="text" 	class="login-input" id="username" name="username" placeholder="Desired Username">
+		<input type="password"  class="login-input" id="password" name="password" placeholder="Your Password">
+		<input type="submit"    class="login-button" value="Sign Up"><br/>   
+		  
+	</form>  
+        <form class="create" action="index.html">
+	<input type="submit" class="create-button" value="Back"> 
+	</form>  
+
+
+</body>
+</html>

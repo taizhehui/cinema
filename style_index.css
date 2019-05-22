@@ -1,0 +1,58 @@
+body{
+	background-image: url("black.jpg");
+	background-size: cover;	
+}
+
+.login {
+
+  margin:auto;
+margin-top: 10%;
+  width: 300px;
+}
+
+.login-title {
+  font-size: bold;
+  color: White;
+  text-align:center;
+}
+
+.login-input {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  background: white;
+}
+.login-button{
+  width: 302px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: #00FFFF;
+  border: 0;
+  cursor: pointer; 
+margin-bottom: 25px;	
+}
+
+.create{
+
+  margin:auto;
+margin-top:0;
+  width: 300px;
+}
+
+
+.create-button{
+  width: 302px;
+  height: 30px;
+  font-size: 15px;
+  color: #00FFFF;
+  text-align: center;
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+
+}
+	

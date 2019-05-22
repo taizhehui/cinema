@@ -1,0 +1,26 @@
+body{
+	background-image: url("cinema.jpeg");
+	background-size: cover;	
+	background-repeat : no-repeat;
+	background-color: black;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

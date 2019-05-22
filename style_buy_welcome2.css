@@ -1,0 +1,156 @@
+
+@media only screen and (max-width: 414px){
+ul {
+
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .title{
+	font-size:20px;
+	}
+    .info{
+	font-size:15px;
+	}
+
+
+    img{
+	width: 300px;
+	}
+
+.button{
+display:inline-block;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: #00FFFF;
+  border: 0;
+  cursor: pointer; 
+margin-top:10px;	
+}
+
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+ul {
+
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .title{
+	font-size:30px;
+	}
+    .info{
+	font-size:20px;
+	}
+
+
+    img{
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+
+	}
+
+.button{
+
+display:block;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: #00FFFF;
+  border: 0;
+  cursor: pointer; 
+margin-top:10px;	
+}
+   
+}
+
+@media only screen and (min-width: 1025px){
+ul {
+
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .title{
+	font-size:30px;
+	}
+    .info{
+	font-size:20px;
+	}
+
+
+    img{
+	float: left;
+	width: 200px;
+	margin-right: 10px;
+
+	}
+
+.button{
+
+display:block;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  background: #00FFFF;
+  border: 0;
+  cursor: pointer; 
+margin-top:10px;	
+}
+
+   
+}
+
+
+
+
+
