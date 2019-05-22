@@ -1,2 +1,2 @@
-# cinema
+# Cinema
 A cinema ticketing web page
